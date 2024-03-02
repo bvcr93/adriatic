@@ -96,10 +96,10 @@ export default function AccomodationItem({
         <div className="mt-3 flex bg-white shadow-lg flex-col gap-3 py-3 rounded-xl px-3 font-light md:font-normal">
           <div className="font-semibold h-12">{title}</div>
           <div className="flex justify-between">
-            <FaUmbrellaBeach /> {beachDistanceInMeters || "N/A"}
+            <FaUmbrellaBeach size={20} /> {beachDistanceInMeters || "N/A"} m
           </div>
           <div className="flex justify-between">
-            <FaBed />
+            <FaBed size={20} />
             {capacity}
           </div>
           <DatePicker
